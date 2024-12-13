@@ -26,21 +26,21 @@ gantt
 title Comprehensive 30-Day DSA Learning Roadmap
 dateFormat  YYYY-MM-DD
 section Week 1: Foundational Skills
-Arrays and Problem-Solving Fundamentals    :done, 2024-12-01, 2d
-String Manipulation and Processing          :active, 2024-12-03, 2d
-Basic Data Structures Exploration           : 2024-12-05, 3d
+Arrays and Problem-Solving Fundamentals    :done, 2024-12-12, 2d
+String Manipulation and Processing          :active, 2024-12-14, 2d
+Basic Data Structures Exploration           : 2024-12-16, 3d
 section Week 2: Intermediate Techniques
-Linked List Mastery                        : 2024-12-08, 3d
-Recursion and Algorithmic Thinking          : 2024-12-11, 3d
-Sorting and Searching Strategies            : 2024-12-14, 1d
+Linked List Mastery                        : 2024-12-19, 3d
+Recursion and Algorithmic Thinking          : 2024-12-22, 3d
+Sorting and Searching Strategies            : 2024-12-25, 1d
 section Week 3: Advanced Data Structures
-Hash-based Data Structures                  : 2024-12-15, 3d
-Tree Structures and Traversals               : 2024-12-18, 3d
+Hash-based Data Structures                  : 2024-12-26, 3d
+Tree Structures and Traversals               : 2025-01-01, 3d
 section Week 4: Advanced Algorithmic Paradigms
-Graph Algorithmic Techniques                : 2024-12-21, 1d
-Dynamic Programming Strategies              : 2024-12-22, 3d
-Greedy Algorithm Principles                 : 2024-12-25, 3d
-Final Comprehensive Assessment              : 2024-12-28, 2d
+Graph Algorithmic Techniques                : 2025-01-04, 1d
+Dynamic Programming Strategies              : 2025-01-05, 3d
+Greedy Algorithm Principles                 : 2025-01-08, 3d
+Final Comprehensive Assessment              : 2025-01-11, 2d
 ```
 
 ---
