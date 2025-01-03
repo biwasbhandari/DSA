@@ -30,19 +30,28 @@ class Fibonacci():
     THIS ONE IS USING RECURSION(BASICALLY CALLING THE FUNCTION AGAIN AND AGAIN)
     """
 
-    myList: List[int] = [0,1]
-    def fibo(self, x:List[int]):
-        a = x[0] # a is the first index of list
-        b = x[1] # b is the second index of list
-        z = a + b # z is the addition of first and second index
-        x.append(z) # z is appended each time at last
-        a = b # 1st index becomes 2nd and gradually increases
-        b = z # 2nd index becomes 3rd i.e. z and gradualy increases
-        print(x)
+    # myList: List[int] = [0,1]
+    # def fibo(self, x:List[int]):
+    #     a = x[0] # a is the first index of list
+    #     b = x[1] # b is the second index of list
+    #     z = a + b # z is the addition of first and second index
+    #     x.append(z) # z is appended each time at last
+    #     a = b # 1st index becomes 2nd and gradually increases
+    #     b = z # 2nd index becomes 3rd i.e. z and gradualy increases
+    #     print(x)
 
-    count: int = 0
+    # count: int = 0
 
-    while(count<10):
-        fibo(self=None,x=myList)
-        count+=1
+    # while(count<10):
+    #     fibo(self=None,x=myList)
+    #     count+=1
+
+    def fibo(self, n):
+        if n<=1:
+            return n
+        else:
+            return (self.fibo(n=n-1 + self.fibo(n=n-2)))
+        
+    result = fibo(self=fibo(n=10))
+    print(result)
     
