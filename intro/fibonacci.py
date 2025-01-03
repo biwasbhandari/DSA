@@ -1,3 +1,4 @@
+from typing import List
 class Fibonacci():
     # THIS IS A SIMPLE ONE
     # x: int = 0
@@ -14,7 +15,7 @@ class Fibonacci():
     friday-3-jan 20:52
     what i tried to do was try to implement fibonacci in array. I don't know if it's the correct approach or soemthing. I think it worked lol. but it has printed in a way i did not expect. feels like magic.
     """
-    x: int = [0,1]
+    x: List[int] = [0,1]
     first_index = x[0]
     second_index = x[1]
     print(first_index, second_index)
